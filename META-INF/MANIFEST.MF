@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.ptyxiaki.compositionsparser;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ptyxiaki.compositionsparser.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.core.resources,
+ org.eclipse.text,
+ org.eclipse.e4.core.di,
+ org.apache.poi;bundle-version="4.0.1";visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.ptyxiaki.compositionsparser
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
